@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Updatafood"
+    tools:ignore="MissingDefaultResource">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/pfood"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="updatafood"
+            android:textSize="60sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/namefoodup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="namefoodup"
+                android:textSize="60dp"
+                android:textStyle="italic" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/foodimag"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+
+
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <TextView
+                    android:id="@+id/largeup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="400dp"
+                    android:text="largeup"
+                    android:textSize="60dp"
+                    android:textStyle="italic" />
+
+
+                <ImageView
+                    android:id="@+id/remov1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="220dp"
+                    android:paddingTop="40sp"
+                    android:src="@drawable/remove"
+                    app:srcCompat="@drawable/remove" />
+
+                <TextView
+                    android:id="@+id/cont1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="120dp"
+                    android:paddingTop="40sp"
+                    android:text=" NL"
+
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+
+                    />
+
+
+                <ImageView
+                    android:id="@+id/add1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:paddingTop="40sp"
+                    android:src="@drawable/add"
+                    app:srcCompat="@drawable/add" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                >
+
+                <TextView
+                    android:id="@+id/mediumup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginRight="200dp"
+
+
+                    android:text=" mediumup"
+                    android:textSize="60dp"
+                    android:textStyle="italic" />
+
+                <ImageView
+                    android:id="@+id/remov2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="220dp"
+                    android:paddingTop="40sp"
+                    android:src="@drawable/remove"
+                    app:srcCompat="@drawable/remove" />
+
+
+                <TextView
+                    android:id="@+id/cont2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="120dp"
+                    android:paddingTop="40sp"
+                    android:text=" NM"
+
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+
+                    />
+
+
+                <ImageView
+                    android:id="@+id/add2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:paddingTop="40sp"
+                    android:src="@drawable/add"
+                    app:srcCompat="@drawable/add" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <TextView
+                    android:id="@+id/smalleup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="700dp"
+                    android:gravity="center"
+                    android:text="smalleup"
+                    android:textSize="60dp"
+                    android:textStyle="italic" />
+
+
+                <ImageView
+                    android:id="@+id/remov3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="600dp"
+                    android:paddingTop="40sp"
+                    android:src="@drawable/remove"
+                    app:srcCompat="@drawable/remove" />
+
+
+                <TextView
+                    android:id="@+id/cont3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="400dp"
+                    android:paddingTop="40sp"
+                    android:text=" NS"
+
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+
+                    />
+
+
+                <ImageView
+                    android:id="@+id/add3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:paddingTop="40sp"
+                    android:src="@drawable/add"
+                    app:srcCompat="@drawable/add" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="send" />
+
+
+        <TextView
+            android:id="@+id/totalprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+
+            android:paddingTop="20dp"
+
+            android:textSize="40sp"
+
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

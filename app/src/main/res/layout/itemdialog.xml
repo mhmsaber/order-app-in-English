@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/namedialog"
+        android:hint="      name"
+        android:textSize="20sp"
+        android:gravity="right"
+        android:text="    "
+        android:padding="15dp"
+        android:drawableRight="@drawable/name"
+
+
+        />
+
+    <EditText
+        android:id="@+id/telphonedialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/phone"
+        android:gravity="right"
+        android:hint="      phone nummber"
+        android:textSize="20sp"
+        android:padding="15dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addressdialog"
+        android:hint="       adresse"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:drawableRight="@drawable/location2"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/senddialog"
+        android:text="done"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+
+
+
+
+</LinearLayout>

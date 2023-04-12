@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+
+
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+         android:layout_margin="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/p22" />
+
+
+
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sigin"
+        app:cornerRadius="20dp"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="new user"
+        app:cornerRadius="20dp"
+
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sigin by google"
+        android:textSize="18sp"
+        android:textColor="@color/red"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        />
+
+
+
+
+
+      <LinearLayout
+          android:id="@+id/googlebtn"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:layout_margin="10dp"
+          android:background="#2C2C28"
+          app:cornerRadius="20dp"
+          >
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="google"
+              android:textSize="25sp"
+              android:textStyle="bold"
+              android:textColor="@color/white"
+              android:layout_margin="5dp"
+              app:cornerRadius="20dp"
+
+              />
+
+
+          <ImageView
+              android:id="@+id/googlebtn2"
+              android:layout_width="50dp"
+              android:layout_height="50dp"
+              android:layout_margin="10dp"
+              app:cornerRadius="20dp"
+              android:src="@drawable/google" />
+
+
+
+
+
+
+
+
+      </LinearLayout>
+
+
+
+
+
+</LinearLayout>
